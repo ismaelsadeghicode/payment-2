@@ -1,0 +1,72 @@
+.col-md-4 {
+   align-items: center;
+    align-items: center;
+
+}
+.table {
+    border: 2px solid  #a81830;
+    border-radius: 5px;
+    margin-top: 15px;
+
+
+
+}
+
+.td {
+    border: 2px solid  #a81830;
+    font-size: 12.8px;
+}
+
+.fafa {
+    margin-top: 30px;
+}
+button#mybtn1 {
+    border: 1px solid gray;
+    width: 80px;
+}
+button#mybtn1:hover {
+    border: 1px solid green;
+    color: green;
+}
+button#mybtn2:hover {
+    border: 1px solid red;
+   color: red;
+}
+button#mybtn2 {
+    border: 1px solid gray;
+    width: 80px;
+}
+div#header {
+    font-family: IRANSans;
+    color: #a81830;
+    font-size:18px;
+    font-weight: bold;
+
+    text-align: center;
+    align-content: center;
+}
+a#gotolink {
+       color: black;
+   }
+
+a#gotolink:hover {
+   text-decoration: none;
+    color: gray;
+}
+
+div#submenu {
+    padding-right: 135px;
+    background-color: #cccccc;
+    height: 30px;
+    margin-bottom: 10px;
+}
+a#submenu2{
+    padding-top: 5px;
+    float: right;
+}
+div#submenu3{
+    padding-right: 188px;
+    background-color: #cccccc;
+    height: 30px;
+    margin-bottom: 10px;
+}

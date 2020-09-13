@@ -1,0 +1,12 @@
+
+bin/
+out/
+scratchdir/
+.idea/workspace.xml
+.idea/misc.xml
+.idea/uiDesigner.xml
+.idea/dataSources*
+.idea/copyright/
+.idea/scopes/
+lib/
+target/

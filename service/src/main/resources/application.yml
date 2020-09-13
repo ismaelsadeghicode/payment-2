@@ -1,0 +1,34 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+#    url: jdbc:oracle:thin:@192.168.23.132:1521:topdb
+    url: jdbc:oracle:thin:@192.168.50.56:1521:dmloradb
+    username: intern_dev
+    password: sima7!@#$
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+  application:
+    name: com.dml.topup
+
+# Metrics related configurations
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+    metrics:
+      enabled: true
+  metrics:
+    export:
+      prometheus:
+        enabled: true

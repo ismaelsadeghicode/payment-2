@@ -1,0 +1,110 @@
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/fonts/fontiran/eot/IRANSansWeb.eot');
+    src: url('../assets/fonts/fontiran/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../assets/fonts/fontiran/woff2/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('../assets/fonts/fontiran/woff/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../assets/fonts/fontiran/ttf/IRANSansWeb.ttf') format('truetype');
+}
+.app-header {
+  ;
+    position: relative;
+
+    font-family: IRANSans;
+
+
+}
+
+
+div#header {
+    overflow: hidden;
+    background-color: white;
+
+    padding-bottom: 0px;
+}
+
+.navig {
+    font-family: IRANSans;
+    font-size: 13px;
+    float: left;
+    color: black;
+    text-align: center;
+cursor: pointer;
+padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.navig.active {
+    background-color: #a81830;
+    color: white;
+}
+
+.navig:hover {
+ font-weight: bold;
+    color: #a81830;
+    text-decoration: none;
+}
+
+
+#img1 {
+    margin-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+   width: 135px;
+    height: 85px;
+
+}
+#img {
+    float: right;
+
+}
+
+#line {
+    height: 5px;
+    background-color: #a81830;
+
+}
+
+
+
+
+button#username {
+float: left;
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+    font-size: 11px;
+    border: none;
+    font-family: IRANSans;
+    padding-top: 5px;
+
+}
+a#exit {
+    border : 2px solid #a81830;
+    border-radius: 4px;
+    padding: 2px;
+    margin: 2px;
+    float: left;
+    font-family: IRANSans;
+    font-size: 11px;
+    text-decoration: none;
+    color: #a81830;
+    font-weight: bold;
+
+    background-color: white;
+    cursor: pointer;
+
+
+}
+div#menu{
+    margin-top: 70px;
+    float: right;
+
+}
+div#user {
+    margin-left: 10px;
+    margin-top: 65px;
+}

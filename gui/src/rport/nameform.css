@@ -1,0 +1,147 @@
+div#nameformcon {
+    padding: 10px;
+
+}
+label#phone {
+
+ font-size: 12px;
+    float: right;
+
+    padding-top: 7px;
+margin-left: 10px;
+    font-family: IRANSans;
+
+}
+
+
+thead.phone {
+    background-color: #b6b6b6;
+
+    color: black;
+    font-size: 15px;
+    font-family: IRANSans;
+
+
+}
+table#phone {
+
+    border: 1px solid  #a81830;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+}
+tr#nameform:nth-child(even) {
+    background-color: #eee;
+}
+
+
+
+
+select {
+    font-family: IRANSans;
+float: right;
+
+
+
+}
+
+label#phone {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+label#fa {
+    direction: rtl;
+    float: right;
+    font-family: IRANSans;
+    font-size: 12px;
+
+}
+select#filter {
+    font-family: IRANSans;
+    float: right;
+
+}
+div#size3 {
+    margin-top: 15px;
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+label#fa {
+    margin-left: 5px;
+    padding-top: 3px;
+    font-weight: normal;
+}
+label#faa {
+    text-align: center;
+  width: 51px;
+    float: left;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: normal;
+}
+div#pn {
+    margin-bottom: 15px;
+    align-items: center;
+    align-content: center;
+    margin-right: 25%;
+
+
+}
+select {
+    text-align: center;
+}
+div#center {
+    align-content: center;
+    alignment: center;
+    align-items: center;
+    padding-right: 42%;
+
+}
+
+#datePicker {
+   font-family: IRANSans;
+    width: 100%;
+    height: 34px;
+    border-radius: 5px;
+
+}
+
+.date {
+    width: 300px;
+    font-family: IRANSans;
+    font-size: 12px;
+    direction: rtl;
+    text-align: center;
+    alignment: center;
+    border: 1px solid  #a81830;
+
+
+}
+input#pn {
+height: 32px;
+    margin-right: 0px;
+}
+label#date {
+
+    font-family: IRANSans;
+    font-size: 12px;
+text-align: right;
+    font-weight: normal;
+direction: rtl;
+}
+input#date {
+ margin : 2px;
+    direction: rtl;
+    alignment: right;
+
+
+
+}
+div#right {    alignment: right;
+    align-content: right;
+    align-items: right;
+
+}

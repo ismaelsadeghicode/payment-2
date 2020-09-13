@@ -1,0 +1,56 @@
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/fonts/fontiran/eot/IRANSansWeb.eot');
+  src: url('./assets/fonts/fontiran/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+  url('./assets/fonts/fontiran/woff2/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+  url('./assets/fonts/fontiran/woff/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('./assets/fonts/fontiran/ttf/IRANSansWeb.ttf') format('truetype');
+}
+.App {
+  text-align: center;
+  font-family: IRANSans;
+}
+/*css*/
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+display: block;
+    background-color: white;
+    font-family: IRANSans;
+}
+.App-body {
+  display: block;
+}
+html {
+  display: block;
+}

@@ -1,0 +1,8 @@
+${Ansi.RED}      ___________                      ____ ___
+${Ansi.GREEN}      \__    ___/___ ______           |    |   \______
+${Ansi.BLUE}         |    | /  _ \\____ \   ______ |    |   /\____ \
+${Ansi.RED}         |    |(  <_> )  |_> > /_____/ |    |  / |  |_> >
+${Ansi.GREEN}         |____| \____/|   __/          |______/  |   __/
+${Ansi.BLUE}                      |__|                       |__|
+
+${Ansi.RED}Spring Boot ${spring-boot.version} :: ${AnsiColor.BLACK} Data Mining Leaders Co.

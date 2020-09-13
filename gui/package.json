@@ -1,0 +1,57 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "jalali-moment": "^3.3.2",
+    "mdbreact": "^4.16.0",
+    "moment-jalaali": "^0.8.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-advance-jalaali-datepicker": "^1.2.2",
+    "react-bootstrap": "^1.0.0-beta.9",
+    "react-bootstrap-table": "^4.3.1",
+    "react-bootstrap-table-next": "^3.1.4",
+    "react-bootstrap-table2-filter": "^1.1.9",
+    "react-bootstrap-table2-paginator": "^2.0.6",
+    "react-click-outside": "^3.0.1",
+    "react-datepicker2": "^3.0.0-alpha.5",
+    "react-dom": "^16.8.6",
+    "react-onoff-switch": "latest",
+    "react-persian-calendar": "^1.0.3",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-s-alert": "^1.4.1",
+    "react-scripts": "3.0.1",
+    "reactstrap": "^8.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+
+    "react-native": "^0.59.9"
+  }
+}

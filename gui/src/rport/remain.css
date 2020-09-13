@@ -1,0 +1,36 @@
+div#remaincon
+{
+    padding: 10px;
+}
+thead#remain {
+    background-color: #b6b6b6;
+
+    color: black;
+    font-size: 15px;
+    font-family: IRANSans;
+
+
+}
+table#remain {
+
+    border: 1px solid  #a81830;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+}
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+
+}
+
+td {
+    text-align: center;
+    margin: 0px;
+}
+
+
+td {
+    border: 1px solid  #a81830;
+}

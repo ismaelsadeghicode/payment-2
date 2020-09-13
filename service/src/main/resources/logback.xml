@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- create by Ismael Sadeghi -->
+<configuration debug="true" scan="true" scanPeriod="1 hour" >
+<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%date %level %logger{10} %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <property name="DEV_HOME" value="c:/logs"/>
+
+    <appender name="FILE-AUDIT"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>
+                %d{yyyy-MM-dd HH:mm:ss} - %msg%n
+            </Pattern>
+        </encoder>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover daily -->
+            <fileNamePattern>/home/dml/topup/PROD-home/log/com.dml.topup-%d{yyyy-MM-dd_HH-mm}.%i.log.zip</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy
+                    class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>200MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+
+    </appender>
+
+    <logger name="com.dml.topup" level="debug"
+            additivity="false">
+        <appender-ref ref="FILE-AUDIT" />
+    </logger>
+
+    <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+    <property name="LOG_FILE" value="${LOG_FILE:-${LOG_PATH:-${LOG_TEMP:-${java.io.tmpdir:-/tmp}}}/spring.log}"/>
+    <include resource="org/springframework/boot/logging/logback/file-appender.xml"/>
+
+    <logger name="pl.org.sbolimowski.async" level="DEBUG"/>
+
+    <root level="INFO">
+        <appender-ref ref="FILE"/>
+    </root>
+
+    <logger name="com.dml.topup" level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+    <logger name="org.springframework" level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+</configuration>
